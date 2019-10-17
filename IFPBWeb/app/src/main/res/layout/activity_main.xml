@@ -5,13 +5,19 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         tools:context=".MainActivity">
 
-    <ListView
-            android:id="@+id/lvCampi"
+    <Button
+            android:id="@+id/btOlhe"
+            android:text="OLHE!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <WebView
+            android:id="@+id/wvIFPB"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-    </ListView>
+    </WebView>
 
 </LinearLayout>
